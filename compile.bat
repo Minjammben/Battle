@@ -1,0 +1,2 @@
+javac -d ./ -cp .;lib/* graphics/Graphics.java world/WorldInterface.java world/Actor.java world/Character.java world/Action.java world/Player.java world/World.java game/State.java game/WorldState.java game/Game.java Main.java 
+jar -cmf manifest.mf app.jar ./*.class
